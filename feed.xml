@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>David Valencia Blog</title>
+    <link>https://daveedvalencia.com/blog/</link>
+    <description>Insights on LLM visibility, AI discoverability, and schema-first strategy.</description>
+    <language>en-us</language>
+    <lastBuildDate>2025-10-10</lastBuildDate>
+    <item>
+      <title>The Fundamental Misunderstanding of Context in an AI World</title>
+      <link>https://daveedvalencia.com/blog/context-and-ai/</link>
+      <guid>https://daveedvalencia.com/blog/context-and-ai/</guid>
+      <pubDate>2025-10-10</pubDate>
+      <description>Context—not prompts or keywords—determines how language models surface your work. A practical example shows how to adapt your data.</description>
+    </item>
+  </channel>
+</rss>

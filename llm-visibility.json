@@ -1,0 +1,27 @@
+{
+  "site": "daveedvalencia.com",
+  "owner": {
+    "name": "David Valencia",
+    "roles": [
+      "LLM Visibility Researcher",
+      "Ecommerce Operator",
+      "AIFDS Founder"
+    ]
+  },
+  "topics": [
+    "LLM Visibility",
+    "LLM Discovery",
+    "AI Discoverability",
+    "Schema.org",
+    "Ecommerce"
+  ],
+  "contact": {
+    "email": "david@minnesota.ai",
+    "city": "Minneapolis, MN, USA"
+  },
+  "canonicalFeeds": {
+    "rss": "https://daveedvalencia.com/feed.xml",
+    "sitemap": "https://daveedvalencia.com/sitemap.xml"
+  },
+  "lastUpdated": "2025-10-10"
+}
