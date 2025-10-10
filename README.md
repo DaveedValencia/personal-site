@@ -144,5 +144,5 @@ All code © 2025 David Valencia. Content licensed under CC BY-NC 4.0. You may re
  
 Contact: `david@minnesota.ai`
 Twitter/X: `@daveedvalencia`  
-GitHub: `github.com/davidvalencia`
+GitHub: `github.com/DaveedValencia`
 All other socials: `@daveedvalencia`  
