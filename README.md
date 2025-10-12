@@ -1,6 +1,6 @@
 # daveedvalencia.com
 
-Personal website of **David Valencia** — focused on AI discoverability, LLM Visibility, and the evolution of schema-driven web understanding.
+Personal website of **David Valencia** — a writer and technologist exploring the philosophy of machine reasoning: how large language models simulate understanding, context, and insight.
 
 Hosted via **GitHub Pages** for full control over HTML, schema, and LLM-readiness.
 
@@ -53,7 +53,7 @@ Highlights:
 
 ## Key Features
 
-### LLM and Schema
+### LLM Philosophy & Schema
 - `Organization`, `Person`, and `BlogPosting` JSON-LD embedded on each page.
 - Custom `/llm-visibility.json` endpoint linked in `<head>`.
 - Validate using [validator.schema.org](https://validator.schema.org) and [Google Rich Results Test](https://search.google.com/test/rich-results).

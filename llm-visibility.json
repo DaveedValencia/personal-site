@@ -3,17 +3,17 @@
   "owner": {
     "name": "David Valencia",
     "roles": [
-      "LLM Visibility Researcher",
-      "Ecommerce Operator",
+      "Writer & Technologist",
+      "LLM Philosophy Researcher",
       "AIFDS Founder"
     ]
   },
   "topics": [
-    "LLM Visibility",
-    "LLM Discovery",
-    "AI Discoverability",
-    "Schema.org",
-    "Ecommerce"
+    "LLM Philosophy",
+    "Machine Reasoning",
+    "Contextual AI",
+    "Philosophy of AI",
+    "Language Models"
   ],
   "contact": {
     "email": "david@minnesota.ai",
@@ -23,5 +23,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-10-10"
+  "lastUpdated": "2025-10-15"
 }
