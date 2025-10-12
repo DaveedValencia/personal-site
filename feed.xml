@@ -5,7 +5,14 @@
     <link>https://daveedvalencia.com/blog/</link>
     <description>Reflections on how large language models simulate reasoning, context, and understanding.</description>
     <language>en-us</language>
-    <lastBuildDate>2025-10-15</lastBuildDate>
+    <lastBuildDate>2025-10-12</lastBuildDate>
+    <item>
+      <title>What is LLM Philosophy?</title>
+      <link>https://daveedvalencia.com/blog/what-is-llm-philosophy/</link>
+      <guid>https://daveedvalencia.com/blog/what-is-llm-philosophy/</guid>
+      <pubDate>2025-10-12</pubDate>
+      <description>LLM Philosophy gives leaders a framework to predict, shape, and measure language model behavior so model-driven decisions stay reliable.</description>
+    </item>
     <item>
       <title>The Fundamental Misunderstanding of Context in an AI World</title>
       <link>https://daveedvalencia.com/blog/context-and-ai/</link>
