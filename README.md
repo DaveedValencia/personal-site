@@ -68,7 +68,7 @@ Highlights:
 - `rel="noopener noreferrer"` on all external links.
 
 ### Analytics
-- GA4 snippet is commented out by default; uncomment and supply `G-XXXXXXX` when you have a property. Consent defaults already configured.
+- GA4 (G-VVS4STC36K) loads site-wide via gtag.js.
 
 ### Newsletter
 - Beehiiv-powered iframe embed with async script, styled to match the site.
@@ -128,7 +128,7 @@ Push to the `main` branch and GitHub Pages will rebuild automatically. Repositor
 
 ## Customization
 
-- Uncomment the GA4 snippet and replace `G-XXXXXXX` when ready to enable analytics.
+- Update GA4 settings in each page head if you rotate properties.
 - Update the Beehiiv embed snippet (form ID or styling) in `/newsletter/index.html` as needed.
 - Adjust colors and fonts via `:root` variables in `/assets/css/base.css`.
 - Swap `/assets/img/david-valencia.jpg` with the final 1200×630 OG image.
