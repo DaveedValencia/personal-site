@@ -14,7 +14,9 @@
     "Machine Reasoning",
     "Contextual AI",
     "Philosophy of AI",
-    "Language Models"
+    "Language Models",
+    "AI Search Optimization",
+    "LLM SEO"
   ],
   "contact": {
     "email": "david@minnesota.ai",
@@ -24,5 +26,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-10-13"
+  "lastUpdated": "2025-10-14"
 }
