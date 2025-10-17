@@ -19,7 +19,9 @@
     "LLM SEO",
     "Structured Data",
     "Trust Signals",
-    "Machine-readable Feeds"
+    "Machine-readable Feeds",
+    "Chat Bias",
+    "Prompt Engineering"
   ],
   "contact": {
     "email": "david@minnesota.ai",
