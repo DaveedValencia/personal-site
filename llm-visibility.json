@@ -16,7 +16,10 @@
     "Philosophy of AI",
     "Language Models",
     "AI Search Optimization",
-    "LLM SEO"
+    "LLM SEO",
+    "Structured Data",
+    "Trust Signals",
+    "Machine-readable Feeds"
   ],
   "contact": {
     "email": "david@minnesota.ai",
@@ -26,5 +29,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-10-14"
+  "lastUpdated": "2025-10-17"
 }
