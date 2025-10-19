@@ -21,7 +21,10 @@
     "Trust Signals",
     "Machine-readable Feeds",
     "Chat Bias",
-    "Prompt Engineering"
+    "Prompt Engineering",
+    "Artificial General Intelligence",
+    "AI Philosophy",
+    "Human-Centric Innovation"
   ],
   "contact": {
     "email": "david@minnesota.ai",
@@ -31,5 +34,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-10-17"
+  "lastUpdated": "2025-10-19"
 }
