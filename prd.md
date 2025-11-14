@@ -4,11 +4,11 @@ This document captures the requirements, cross-page dependencies, and QA checks 
 
 ## Objectives
 - Maintain a repeatable workflow so every post launches with complete metadata, structured data, and cross-page links.
-- Ensure home, blog index, sitemap, RSS feed, and machine-readable assets stay in sync.
+- Ensure the homepage, category landing pages, sitemap, RSS feed, and machine-readable assets stay in sync.
 - Preserve analytics, accessibility, and governance standards (CSP, skip links, author attribution, etc.).
 
 ## Source of Truth
-- Each post lives at `blog/<slug>/index.html` with canonical URL `https://daveedvalencia.com/blog/<slug>/`.
+- Each post lives at `<category>/<slug>/index.html` (e.g., `ai-visibility/how-to-optimize-for-ai-search/index.html`) with canonical URL `https://daveedvalencia.com/<category>/<slug>/`.
 - Post metadata (title, description, timestamps, word count, reading time) is encoded in both HTML `<head>` tags and JSON-LD.
 - Global feeds: `feed.xml`, `sitemap.xml`, and `llm-visibility.json`.
 
@@ -32,13 +32,12 @@ This document captures the requirements, cross-page dependencies, and QA checks 
 - Confirm `mainEntityOfPage` matches the canonical URL.
 
 ## Cross-Page Updates
-1. **Blog Index (`blog/index.html`)**
-   - Insert the new post at the top of the ordered list.
+1. **Category landing page (`/llm-philosophy/`, `/ai-visibility/`, or `/ai-society/`)**
+   - Insert the new post at the top of that section’s ordered list.
    - Update summary blurb and reading time.
-   - Check upcoming/placeholder entries still render correctly.
 2. **Homepage (`index.html`)**
-   - Surface the post in the “Latest essays” list (top position).
-   - Align teaser copy and publication date.
+   - Refresh any featured card or copy that should highlight the new post (one per category).
+   - Ensure category descriptions still reflect available work.
 3. **RSS Feed (`feed.xml`)**
    - Update `<lastBuildDate>` to publish date (YYYY-MM-DD).
    - Add a new `<item>` with title, link, GUID (same as link), `pubDate`, and concise description.
@@ -47,11 +46,13 @@ This document captures the requirements, cross-page dependencies, and QA checks 
 5. **LLM Visibility Manifest (`llm-visibility.json`)**
    - Append any new topics introduced by the post.
    - Refresh `"lastUpdated"` (YYYY-MM-DD).
-6. **Canonical Feed References**
+6. **Legacy blog redirect (`/blog/<slug>/index.html`)**
+   - Create/update the meta-refresh shim so historical links forward to the new canonical URL.
+7. **Canonical Feed References**
    - Verify `<link rel="alternate">` references in the post’s `<head>` still point to `/feed.xml` and `/llm-visibility.json`.
 
 ## Structured Content Checklist
-- [ ] New folder and `index.html` created under `blog/<slug>/`.
+- [ ] New folder and `index.html` created under `<category>/<slug>/`.
 - [ ] Head metadata reflects post content and publish date.
 - [ ] JSON-LD validates against schema.org BlogPosting.
 - [ ] Article body uses semantic HTML (headings, lists, paragraphs).
@@ -62,7 +63,7 @@ This document captures the requirements, cross-page dependencies, and QA checks 
 - Validate HTML with a quick pass (e.g., browser dev tools) if time permits.
 - Spot-check RSS item formatting (well-formed XML, proper encoding).
 - Confirm sitemap remains valid XML (no trailing commas, proper nesting).
-- Verify new post appears on homepage and blog index without breaking layout.
+- Verify the new post appears on the homepage (if surfaced) and the relevant category page without breaking layout.
 - Double-check dates across all surfaces match.
 
 ## Release Notes / Versioning
@@ -72,6 +73,6 @@ This document captures the requirements, cross-page dependencies, and QA checks 
 ## Future Enhancements (parking lot)
 - Script helper to calculate word count/reading time and inject into template.
 - Automated schema and HTML validation as part of pre-commit hook.
-- Dedicated metadata manifest to drive blog index/feed generation programmatically.
+- Dedicated metadata manifest to drive landing pages/feed generation programmatically.
 
 Keep this PRD in sync as standards evolve. When a new best practice is adopted, document it here before or during implementation.***

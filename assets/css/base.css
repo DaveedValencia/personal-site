@@ -4,7 +4,7 @@
   --font-serif: "Georgia", "Times New Roman", serif;
   --accent: #1f7cff;
   --bg-light: #ffffff;
-  --text-light: #0b172a;
+  --text-light: #1f2933;
   --border-light: rgba(15, 23, 42, 0.06);
   --radius-sm: 0.375rem;
   --radius-md: 0.75rem;
@@ -266,6 +266,124 @@ main {
   content: " →";
 }
 
+.section-description {
+  margin: 0 0 1.5rem;
+  color: rgba(15, 23, 42, 0.65);
+}
+
+.section-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.78rem;
+  color: rgba(15, 23, 42, 0.6);
+  margin: 0 0 0.4rem;
+}
+
+.category-overview {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  background: #fff;
+  display: grid;
+  gap: 0.75rem;
+  height: 100%;
+}
+
+.category-kicker {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(15, 23, 42, 0.6);
+}
+
+.category-link {
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.category-link::after {
+  content: " →";
+}
+
+.featured-posts {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.5rem;
+}
+
+.featured-card {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  background: #fff;
+  display: grid;
+  gap: 0.75rem;
+  height: 100%;
+}
+
+.featured-card h3 {
+  margin: 0;
+}
+
+.featured-card h3 a {
+  text-decoration: none;
+}
+
+.category-pill {
+  display: inline-flex;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(31, 124, 255, 0.12);
+  color: var(--accent);
+}
+
+.about-snippet {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: rgba(31, 124, 255, 0.05);
+}
+
+.button.button-secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid rgba(31, 124, 255, 0.4);
+}
+
+.button.button-secondary:hover,
+.button.button-secondary:focus-visible {
+  box-shadow: none;
+  background: rgba(31, 124, 255, 0.08);
+}
+
+.subscribe-callout {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  background: linear-gradient(120deg, rgba(31, 124, 255, 0.08), rgba(31, 124, 255, 0));
+}
+
 .latest-posts ol,
 .highlights ul,
 .post-list,
@@ -279,11 +397,18 @@ main {
 
 .latest-posts article,
 .post-list article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 1.5rem;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
   background: #ffffff;
   transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.post-list li {
+  height: 100%;
 }
 
 .latest-posts article:hover,
@@ -292,6 +417,10 @@ main {
 .post-list article:focus-within {
   transform: translateY(-4px);
   box-shadow: var(--shadow-sm);
+}
+
+.post-grid {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 }
 
 .latest-posts .meta,
@@ -316,8 +445,24 @@ main {
   max-width: var(--content-width);
 }
 
+main > article {
+  max-width: 50rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
 .page-header {
   max-width: var(--content-width);
+}
+
+.page-header.boxed {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
 }
 
 .page-header.with-media {
@@ -483,6 +628,34 @@ textarea {
 .post-list article h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+
+.post-list article h3 a {
+  text-decoration: none;
+}
+
+.card-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(31, 124, 255, 0.4);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: auto;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.card-button::after {
+  content: "→";
+}
+
+.card-button:hover,
+.card-button:focus-visible {
+  border-color: var(--accent);
+  background: rgba(31, 124, 255, 0.08);
 }
 
 .article-kicker {

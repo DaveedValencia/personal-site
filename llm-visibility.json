@@ -11,11 +11,13 @@
   "topics": [
     "LLM Visibility",
     "LLM Philosophy",
+    "AI Visibility",
     "Machine Reasoning",
     "Contextual AI",
     "Philosophy of AI",
     "Language Models",
     "AI Search Optimization",
+    "AI Society",
     "LLM SEO",
     "Structured Data",
     "Trust Signals",
@@ -34,5 +36,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-10-19"
+  "lastUpdated": "2025-10-20"
 }

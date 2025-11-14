@@ -27,9 +27,21 @@ Deployed automatically from the `main` branch using GitHub Pages.
 ├── about/index.html
 ├── contact/index.html
 ├── newsletter/index.html
-├── blog/
+├── llm-philosophy/
 │   ├── index.html
-│   └── context-and-ai/index.html
+│   ├── context-and-ai/index.html
+│   └── what-is-llm-philosophy/index.html
+├── ai-visibility/
+│   ├── index.html
+│   ├── feeds-vs-structure-llm-visibility/index.html
+│   ├── how-to-optimize-for-ai-search/index.html
+│   └── what-is-llm-visibility/index.html
+├── ai-society/
+│   ├── index.html
+│   ├── weve-mistaken-efficiency-for-evolution/index.html
+│   └── how-to-control-chat-bias/index.html
+├── blog/ (legacy redirects)
+│   └── <slug>/index.html
 ├── assets/
 │   ├── css/base.css
 │   ├── js/main.js
@@ -46,7 +58,6 @@ Highlights:
 - `/llm-visibility.json` → machine-readable metadata for AI models.
 - `/feed.xml` → valid RSS feed for syndication and LLM discovery.
 - `/sitemap.xml` → search and crawler visibility.
-- `/assets/js/main.js` → optional progressive enhancements.
 - `/assets/css/base.css` → single lightweight stylesheet (≤ 15 KB).
 
 ---
@@ -98,9 +109,8 @@ Highlights:
    (VS Code Live Server or similar works too.)
 
 3. Edit content as needed:
-- Posts: `/blog/<slug>/index.html`
+- Posts: `/<category>/<slug>/index.html` (e.g., `/ai-visibility/feeds-vs-structure-llm-visibility/`)
 - Styles: `/assets/css/base.css`
-- Scripts: `/assets/js/main.js`
 - JSON context: `/llm-visibility.json`
 
 4. Preview at `http://localhost:4000`.
