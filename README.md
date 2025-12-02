@@ -1,6 +1,6 @@
 # daveedvalencia.com
 
-Personal website of **David Valencia** — a writer and technologist exploring the philosophy of machine reasoning: how large language models simulate understanding, context, and insight.
+Personal website of **David Valencia** — an ecommerce operator publishing AI Visibility playbooks and DTC report cards that audit how brands show up across AI search, web, and retention.
 
 Hosted via **GitHub Pages** for full control over HTML, schema, and LLM-readiness.
 
@@ -8,10 +8,10 @@ Hosted via **GitHub Pages** for full control over HTML, schema, and LLM-readines
 
 ## Overview
 
-This is a static site (HTML + CSS + optional minimal JS) designed to be:
+This is a static site (HTML + CSS) designed to be:
 - Fast – no frameworks, no build steps.
 - Accessible – WCAG-AA compliant navigation and color contrast.
-- LLM-friendly – structured data (JSON-LD + `/llm-visibility.json`) for contextual comprehension.
+- Search/LLM-friendly – structured data (JSON-LD + `/llm-visibility.json`).
 - SEO-ready – proper metadata, RSS, and sitemap.
 - Secure – strong Content-Security-Policy and minimal external dependencies.
 
@@ -24,27 +24,21 @@ Deployed automatically from the `main` branch using GitHub Pages.
 ```text
 /
 ├── index.html
-├── about/index.html
 ├── contact/index.html
-├── newsletter/index.html
-├── llm-philosophy/
-│   ├── index.html
-│   ├── context-and-ai/index.html
-│   └── what-is-llm-philosophy/index.html
 ├── ai-visibility/
 │   ├── index.html
 │   ├── feeds-vs-structure-llm-visibility/index.html
 │   ├── how-to-optimize-for-ai-search/index.html
-│   └── what-is-llm-visibility/index.html
-├── ai-society/
-│   ├── index.html
+│   ├── what-is-llm-visibility/index.html
+│   ├── what-is-llm-philosophy/index.html
+│   ├── context-and-ai/index.html
 │   ├── weve-mistaken-efficiency-for-evolution/index.html
 │   └── how-to-control-chat-bias/index.html
-├── blog/ (legacy redirects)
-│   └── <slug>/index.html
+├── reports/
+│   ├── index.html
+│   └── jack-links-dtc-report-card/index.html
 ├── assets/
 │   ├── css/base.css
-│   ├── js/main.js
 │   └── img/david-valencia.jpg
 ├── feed.xml
 ├── sitemap.xml
@@ -55,16 +49,16 @@ Deployed automatically from the `main` branch using GitHub Pages.
 ```
 
 Highlights:
-- `/llm-visibility.json` → machine-readable metadata for AI models.
-- `/feed.xml` → valid RSS feed for syndication and LLM discovery.
+- `/llm-visibility.json` → machine-readable metadata for AI/search.
+- `/feed.xml` → RSS feed.
 - `/sitemap.xml` → search and crawler visibility.
-- `/assets/css/base.css` → single lightweight stylesheet (≤ 15 KB).
+- `/assets/css/base.css` → single lightweight stylesheet.
 
 ---
 
 ## Key Features
 
-### LLM Philosophy & Schema
+### AI Visibility & Schema
 - `Organization`, `Person`, and `BlogPosting` JSON-LD embedded on each page.
 - Custom `/llm-visibility.json` endpoint linked in `<head>`.
 - Validate using [validator.schema.org](https://validator.schema.org) and [Google Rich Results Test](https://search.google.com/test/rich-results).
@@ -75,15 +69,14 @@ Highlights:
 - Color contrast and focus outlines verified for WCAG AA.
 
 ### Security
-- Inline `<meta http-equiv="Content-Security-Policy">` restricting sources to self (plus Beehiiv on the newsletter page).
+- Inline `<meta http-equiv="Content-Security-Policy">` restricting sources to self (plus Beehiiv on the contact subscribe embed).
 - `rel="noopener noreferrer"` on all external links.
 
 ### Analytics
 - GA4 (G-VVS4STC36K) loads site-wide via gtag.js.
 
 ### Newsletter
-- Beehiiv-powered iframe embed with async script, styled to match the site.
-- Update the Beehiiv form ID in `/newsletter/index.html` if you rotate lists or accounts.
+- Beehiiv-powered iframe embed lives on the contact page subscribe section (`/contact/#subscribe-title`).
 
 ### Performance
 - Lighthouse score ≥ 95 (desktop).
@@ -109,7 +102,8 @@ Highlights:
    (VS Code Live Server or similar works too.)
 
 3. Edit content as needed:
-- Posts: `/<category>/<slug>/index.html` (e.g., `/ai-visibility/feeds-vs-structure-llm-visibility/`)
+- Reports: `/reports/<slug>/index.html`
+- AI posts: `/ai-visibility/<slug>/index.html`
 - Styles: `/assets/css/base.css`
 - JSON context: `/llm-visibility.json`
 
@@ -139,7 +133,7 @@ Push to the `main` branch and GitHub Pages will rebuild automatically. Repositor
 ## Customization
 
 - Update GA4 settings in each page head if you rotate properties.
-- Update the Beehiiv embed snippet (form ID or styling) in `/newsletter/index.html` as needed.
+- Update the Beehiiv embed snippet (form ID or styling) in the contact page subscribe section as needed.
 - Adjust colors and fonts via `:root` variables in `/assets/css/base.css`.
 - Swap `/assets/img/david-valencia.jpg` with the final 1200×630 OG image.
 - Refresh `<title>`, `<meta name="description">`, canonical URLs, and `lastUpdated` in `/llm-visibility.json` before publishing.

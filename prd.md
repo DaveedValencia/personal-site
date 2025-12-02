@@ -32,7 +32,7 @@ This document captures the requirements, cross-page dependencies, and QA checks 
 - Confirm `mainEntityOfPage` matches the canonical URL.
 
 ## Cross-Page Updates
-1. **Category landing page (`/llm-philosophy/`, `/ai-visibility/`, or `/ai-society/`)**
+1. **Category landing page (`/ai-visibility/`)**
    - Insert the new post at the top of that section’s ordered list.
    - Update summary blurb and reading time.
 2. **Homepage (`index.html`)**

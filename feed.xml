@@ -5,18 +5,25 @@
     <link>https://daveedvalencia.com/</link>
     <description>Reflections on how large language models simulate reasoning, context, and understanding.</description>
     <language>en-us</language>
-    <lastBuildDate>2025-10-19</lastBuildDate>
+    <lastBuildDate>2025-12-01</lastBuildDate>
     <item>
       <title>We’ve Mistaken Efficiency for Evolution</title>
-      <link>https://daveedvalencia.com/ai-society/weve-mistaken-efficiency-for-evolution/</link>
-      <guid>https://daveedvalencia.com/ai-society/weve-mistaken-efficiency-for-evolution/</guid>
+      <link>https://daveedvalencia.com/reports/jack-links-dtc-report-card/</link>
+      <guid>https://daveedvalencia.com/reports/jack-links-dtc-report-card/</guid>
+      <pubDate>2025-12-01</pubDate>
+      <description>Audit of Jack Link’s DTC funnel showing conversion leaks, margin loss, and the fixes to recover revenue.</description>
+    </item>
+    <item>
+      <title>We’ve Mistaken Efficiency for Evolution</title>
+      <link>https://daveedvalencia.com/ai-visibility/weve-mistaken-efficiency-for-evolution/</link>
+      <guid>https://daveedvalencia.com/ai-visibility/weve-mistaken-efficiency-for-evolution/</guid>
       <pubDate>2025-10-19</pubDate>
       <description>Ask whether AGI built for efficiency truly evolves humanity or just reinforces the scarcity mindset we already have.</description>
     </item>
     <item>
       <title>The Chat Bias, what is it and how to control it</title>
-      <link>https://daveedvalencia.com/ai-society/how-to-control-chat-bias/</link>
-      <guid>https://daveedvalencia.com/ai-society/how-to-control-chat-bias/</guid>
+      <link>https://daveedvalencia.com/ai-visibility/how-to-control-chat-bias/</link>
+      <guid>https://daveedvalencia.com/ai-visibility/how-to-control-chat-bias/</guid>
       <pubDate>2025-10-17</pubDate>
       <description>Understand why chat models mirror your assumptions and how negative prompting gives you the critique you asked for.</description>
     </item>
@@ -43,15 +50,15 @@
     </item>
     <item>
       <title>What is LLM Philosophy?</title>
-      <link>https://daveedvalencia.com/llm-philosophy/what-is-llm-philosophy/</link>
-      <guid>https://daveedvalencia.com/llm-philosophy/what-is-llm-philosophy/</guid>
+      <link>https://daveedvalencia.com/ai-visibility/what-is-llm-philosophy/</link>
+      <guid>https://daveedvalencia.com/ai-visibility/what-is-llm-philosophy/</guid>
       <pubDate>2025-10-12</pubDate>
       <description>A straightforward look at how large language models think, where their reasoning stops, and why understanding that matters.</description>
     </item>
     <item>
       <title>The Fundamental Misunderstanding of Context in an AI World</title>
-      <link>https://daveedvalencia.com/llm-philosophy/context-and-ai/</link>
-      <guid>https://daveedvalencia.com/llm-philosophy/context-and-ai/</guid>
+      <link>https://daveedvalencia.com/ai-visibility/context-and-ai/</link>
+      <guid>https://daveedvalencia.com/ai-visibility/context-and-ai/</guid>
       <pubDate>2025-10-10</pubDate>
       <description>Context—not prompts or keywords—determines how language models surface your work. A practical example reveals what that says about machine reasoning.</description>
     </item>

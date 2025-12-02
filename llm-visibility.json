@@ -3,30 +3,27 @@
   "owner": {
     "name": "David Valencia",
     "roles": [
-      "Writer & Technologist",
-      "LLM Philosophy Researcher",
-      "AIFDS Founder"
+      "Ecommerce Operator",
+      "DTC Audit Specialist",
+      "AI Visibility Strategist"
     ]
   },
   "topics": [
-    "LLM Visibility",
-    "LLM Philosophy",
     "AI Visibility",
-    "Machine Reasoning",
-    "Contextual AI",
-    "Philosophy of AI",
-    "Language Models",
-    "AI Search Optimization",
-    "AI Society",
-    "LLM SEO",
+    "Ecommerce Systems",
+    "DTC Report Cards",
+    "Funnel Diagnostics",
+    "Conversion Rate Optimization",
+    "Retention Strategy",
+    "Promo Architecture",
+    "Shopify Plus Migration",
+    "Data Hygiene",
     "Structured Data",
     "Trust Signals",
     "Machine-readable Feeds",
-    "Chat Bias",
-    "Prompt Engineering",
-    "Artificial General Intelligence",
-    "AI Philosophy",
-    "Human-Centric Innovation"
+    "Operational Audits",
+    "Customer Experience",
+    "Growth Experiments"
   ],
   "contact": {
     "email": "david@minnesota.ai",
@@ -36,5 +33,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-10-20"
+  "lastUpdated": "2025-12-01"
 }

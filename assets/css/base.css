@@ -347,10 +347,14 @@ main {
 
 .category-pill {
   display: inline-flex;
+  align-items: center;
   font-size: 0.75rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   padding: 0.2rem 0.65rem;
+  line-height: 1;
+  margin: 0 0 0.35rem;
   border-radius: 999px;
   background: rgba(31, 124, 255, 0.12);
   color: var(--accent);
@@ -373,7 +377,9 @@ main {
 .button.button-secondary:hover,
 .button.button-secondary:focus-visible {
   box-shadow: none;
-  background: rgba(31, 124, 255, 0.08);
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
 }
 
 .subscribe-callout {
@@ -517,6 +523,8 @@ main > article {
 .button:focus-visible {
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
+  background: #fff;
+  color: var(--accent);
 }
 
 .highlights ul {
@@ -756,4 +764,11 @@ code {
   background: rgba(15, 23, 42, 0.08);
   padding: 0.2em 0.35em;
   border-radius: 0.35rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
 }
