@@ -1,6 +1,6 @@
 # daveedvalencia.com
 
-Personal website of **David Valencia** — an ecommerce operator publishing AI Visibility playbooks and DTC report cards that audit how brands show up across AI search, web, and retention.
+Personal website of **David Valencia** — an ecommerce operator publishing AI Visibility playbooks and ecommerce audits that explain how brands show up across AI search, web, and retention.
 
 Hosted via **GitHub Pages** for full control over HTML, schema, and LLM-readiness.
 
@@ -34,9 +34,6 @@ Deployed automatically from the `main` branch using GitHub Pages.
 │   ├── context-and-ai/index.html
 │   ├── weve-mistaken-efficiency-for-evolution/index.html
 │   └── how-to-control-chat-bias/index.html
-├── reports/
-│   ├── index.html
-│   └── jack-links-dtc-report-card/index.html
 ├── assets/
 │   ├── css/base.css
 │   └── img/david-valencia.jpg
@@ -102,7 +99,6 @@ Highlights:
    (VS Code Live Server or similar works too.)
 
 3. Edit content as needed:
-- Reports: `/reports/<slug>/index.html`
 - AI posts: `/ai-visibility/<slug>/index.html`
 - Styles: `/assets/css/base.css`
 - JSON context: `/llm-visibility.json`
