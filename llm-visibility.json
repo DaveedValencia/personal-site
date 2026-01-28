@@ -23,7 +23,8 @@
     "Machine-readable Feeds",
     "Operational Audits",
     "Customer Experience",
-    "Growth Experiments"
+    "Growth Experiments",
+    "Projects"
   ],
   "contact": {
     "email": "david@minnesota.ai",
@@ -33,5 +34,5 @@
     "rss": "https://daveedvalencia.com/feed.xml",
     "sitemap": "https://daveedvalencia.com/sitemap.xml"
   },
-  "lastUpdated": "2025-12-01"
+  "lastUpdated": "2026-01-27"
 }

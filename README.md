@@ -34,9 +34,15 @@ Deployed automatically from the `main` branch using GitHub Pages.
 │   ├── context-and-ai/index.html
 │   ├── weve-mistaken-efficiency-for-evolution/index.html
 │   └── how-to-control-chat-bias/index.html
+├── projects/
+│   ├── index.html
+│   └── gambling-addy/index.html
 ├── assets/
 │   ├── css/base.css
-│   └── img/david-valencia.jpg
+│   └── img/
+│       ├── david-valencia.jpg
+│       ├── gambling-hero.png
+│       └── gambling-hero-result.png
 ├── feed.xml
 ├── sitemap.xml
 ├── robots.txt
@@ -100,6 +106,7 @@ Highlights:
 
 3. Edit content as needed:
 - AI posts: `/ai-visibility/<slug>/index.html`
+- Projects: `/projects/<slug>/index.html`
 - Styles: `/assets/css/base.css`
 - JSON context: `/llm-visibility.json`
 

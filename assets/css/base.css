@@ -527,6 +527,20 @@ main > article {
   color: var(--accent);
 }
 
+.results-cta {
+  text-align: center;
+}
+
+.results-cta .button {
+  margin-top: 1.5rem;
+  border: 1px solid transparent;
+}
+
+.results-cta .button:hover,
+.results-cta .button:focus-visible {
+  border-color: var(--accent);
+}
+
 .highlights ul {
   margin-top: 1.5rem;
 }
