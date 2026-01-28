@@ -36,7 +36,8 @@ Deployed automatically from the `main` branch using GitHub Pages.
 │   └── how-to-control-chat-bias/index.html
 ├── projects/
 │   ├── index.html
-│   └── gambling-addy/index.html
+│   ├── gambling-addy/index.html
+│   └── whats-my-art-worth/index.html
 ├── assets/
 │   ├── css/base.css
 │   └── img/
